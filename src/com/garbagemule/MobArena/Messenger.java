@@ -25,7 +25,7 @@ public class Messenger
         }
 
         // Otherwise, send the message with the [MobArena] tag.
-        p.sendMessage(ChatColor.GREEN + "[MobArena] " + ChatColor.RESET + msg);
+        p.sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_PURPLE + "MobArena" + ChatColor.DARK_GRAY + "] " + LIGHT_PURPLE + msg);
         return true;
     }
 
